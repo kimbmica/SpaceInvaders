@@ -4,7 +4,7 @@ var healthBoost:Rigidbody;
 
 function Start ()
 {
-	InvokeRepeating("createHealthboost",10.0,8.0);
+	InvokeRepeating("createHealthboost",6.0,8.0);
 }
 
 function Update () {
